@@ -57,3 +57,13 @@ A Customer Relationship Management (CRM) system designed for astrologers to mana
 - bcrypt
 
 ## Project Structure
+client/
+├── src/
+├── components/
+├── pages/
+
+server/
+├── controllers/
+├── routes/
+├── models/
+├── middleware/

@@ -5,6 +5,8 @@
 
 const mongoose = require('mongoose');
 const env = require('./env');
+const dns = require('dns');
+dns.setServers(['8.8.8.8', '8.8.4.4']);
 
 /**
  * Connect to MongoDB with recommended production settings.
